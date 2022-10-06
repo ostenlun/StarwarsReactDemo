@@ -1,23 +1,32 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-thumb {
+
+  background: #772222;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+
+  background: #227722;
+
+
+}
+
+html {
+  background-image: url('../public/stars.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -25,14 +34,38 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0094C6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+  
+
+.posts-container {
+
+}
+
+.post-card {
+  width: 800px;
+  min-height: 400px;
+}
+
+.post-row {
+  width: 800px;
+  height: 20px;
+  border-width: 1px;
+}
+
+.ship-name {
+  height: 30px;
+  width: 80px;
+}
+
+.ship-model {
+  height: 30px;
+  width: 80px;
+}
+
+.ship-films {
+  height: 30px;
+  width: 30px;
 }

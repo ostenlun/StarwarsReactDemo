@@ -2,70 +2,9 @@
   text-align: left;
 }
 
-::-webkit-scrollbar-thumb {
-
-  background: #772222;
-
-
-}
-
-::-webkit-scrollbar-thumb {
-
-  background: #227722;
-
-
-}
-
 html {
   background-image: url('../public/stars.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #0094C6;
-}
-
-
-  
-
-.posts-container {
-
-}
-
-.post-card {
-  width: 800px;
-  min-height: 400px;
-}
-
-.post-row {
-  width: 800px;
-  height: 20px;
-  border-width: 1px;
-}
-
-.ship-name {
-  height: 30px;
-  width: 80px;
-}
-
-.ship-model {
-  height: 30px;
-  width: 80px;
-}
-
-.ship-films {
-  height: 30px;
-  width: 30px;
 }
